@@ -19,7 +19,10 @@ ratingBtn.forEach(btn => {
   btn.addEventListener('click', () => {
     btn.style.backgroundColor = 'hsl(25, 97%, 53%)';
 
-    voted = event.target.textContent;
+    if ((btn.style.backgroundColor = 'hsl(25, 97%, 53%)')) {
+      voted++;
+    }
+
     console.log(voted);
 
     selected.innerHTML = `
